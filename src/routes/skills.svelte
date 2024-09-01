@@ -11,8 +11,11 @@
     // Each tab contains an object made up of technology mapped to its icon name
     const tabContent: TabContentType = {
         Languages: ["Javascript", "Typescript", "SQL", "Python", "HTML", "CSS", "C++", "C", "Java", "Scala"],
-        Frameworks: ["React", "Firebase", "TailwindCSS", "SvelteKit", "Express"],
+        Frameworks: ["React", "Firebase", "TailwindCSS", "Jest", "SvelteKit", "Express"],
         Security: ["Linux", "Wireshark", "Burp Suite", "Bash Shell"],
+        Databases: ["SQLite", "Postgres", "MySQL", "MongoDB"],
+        Cloud: ["Google Cloud", "AWS", "Microsoft Azure"],
+        "Dev Tools": ["Git", "GitHub", "Docker", "Adobe XD", "Figma", "CircleCI", "Jira"],
     };
 </script>
 
