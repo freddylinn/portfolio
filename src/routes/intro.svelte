@@ -1,4 +1,4 @@
-<div class="bg-[url(/landscape9.jpg)] w-screen bg-cover bg-no-repeat flex flex-wrap justify-center items-center p-4 gap-4">
+<div class="bg-[url(/landscape9.jpg)] w-screen bg-cover bg-no-repeat flex flex-wrap justify-center items-center px-4 py-12 gap-4">
     <img class="rounded-full w-64 h-64 object-cover shadow-md" src="/portrait.jpg" alt="test" />
     <div class="w-5/ md:w-1/2 bg-slate-800/70 backdrop-blur-sm rounded-md text-center font-mono text-white p-4">
         <h3 class="font-bold font-mono text-3xl text-white drop-shadow-md">Freddy Linn</h3>
