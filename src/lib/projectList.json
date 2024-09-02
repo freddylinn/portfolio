@@ -1,0 +1,9 @@
+[
+    {
+        "title": "This Website!",
+        "summary": "I learned SvelteKit to create this portfolio website and it is currently hosted on Vercel to enable SSR.",
+        "skills": ["SvelteKit", "TypeScript", "Tailwind"],
+        "github": "https://github.com/freddylinn/portfolio",
+        "live": ""
+    }
+]
