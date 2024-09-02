@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { fade } from "svelte/transition";
+    import { fly } from "svelte/transition";
 
     type TabContentType = {
         [key: string]: string[];
@@ -31,12 +31,14 @@
             </button>
         {/each}
     </div>
-    <div class="flex justify-center items-center gap-16 flex-wrap px-8 py-12">
-        {#each tabContent[selectedTab] as tool}
-            <div class="flex flex-col items-center justify-center">
-                <svg class="h-24 w-24 mb-2"><use href={`/icons.svg#${tool.toLowerCase()}`}></use></svg>
-                <h3 class="font-medium font-sans text-xl">{tool}</h3>
-            </div>
-        {/each}
-    </div>
+    {#key selectedTab}
+        <div in:fly={{ y: 20, duration: 400 }} class="flex justify-center items-center gap-16 flex-wrap px-8 py-12">
+            {#each tabContent[selectedTab] as tool}
+                <div class="flex flex-col items-center justify-center">
+                    <svg class="h-24 w-24 mb-2"><use href={`/icons.svg#${tool.toLowerCase()}`}></use></svg>
+                    <h3 class="font-medium font-sans text-xl">{tool}</h3>
+                </div>
+            {/each}
+        </div>
+    {/key}
 </section>
