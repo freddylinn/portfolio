@@ -1,9 +1,26 @@
 [
     {
         "title": "This Website!",
-        "summary": "I learned SvelteKit to create this portfolio website and it is currently hosted on Vercel to enable SSR.",
+        "summary": "I learned SvelteKit to create this portfolio website and it's currently hosted on Vercel to enable SSR. The scripting is done in TypeScript and I use Tailwind for styling.",
         "skills": ["SvelteKit", "TypeScript", "Tailwind"],
         "github": "https://github.com/freddylinn/portfolio",
-        "live": ""
+        "screenshots": ["/portfolio.png"],
+        "screenshotsAlt": ["screenshot of this website's source code"]
+    },
+    {
+        "title": "Online Survey Tool",
+        "summary": "I transformed spreadsheet info from the Colorado Motor Speech Lab into a free tool for speech therapists. I've also built out a subscription platform that is ready to go live.",
+        "skills": ["React", "Firebase", "Tailwind"],
+        "github": "https://github.com/freddylinn/cmsf-website",
+        "live": "https://cmsf.info",
+        "screenshots": ["/cmsf1.jpg"],
+        "screenshotsAlt": ["screenshot of the colorado motor speech framework website"]
+    },
+    {
+        "title": "Mini Home Server",
+        "summary": "I installed Pi-Hole, a network-wide ad blocker on a Raspberry Pi. This runs 24/7 on my home network and has a firewall configured to only permit Pi-Hole traffic.",
+        "skills": ["Linux", "Bash Shell"],
+        "screenshots": ["/pi.jpg"],
+        "screenshotsAlt": ["photograph of my raspberry pi placed on a table"]
     }
 ]
