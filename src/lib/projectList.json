@@ -18,9 +18,25 @@
     },
     {
         "title": "Mini Home Server",
-        "summary": "I installed Pi-Hole, a network-wide ad blocker on a Raspberry Pi. This runs 24/7 on my home network and has a firewall configured to only permit Pi-Hole traffic.",
+        "summary": "I installed Pi-Hole, a network-wide ad blocker, on a Raspberry Pi. This runs 24/7 on my home network and has a firewall configured to only permit Pi-Hole traffic.",
         "skills": ["Linux", "Bash Shell"],
         "screenshots": ["/pi.jpg"],
         "screenshotsAlt": ["photograph of my raspberry pi placed on a table"]
+    },
+    {
+        "title": "Wildlife Search Engine",
+        "summary": "Our team at Blueprint Boulder built a highly modular database with sorting and filtering. I focused on designing the admin-facing pages and pulling data from SQLite.",
+        "skills": ["React", "Tailwind", "SQLite"],
+        "github": "https://github.com/Blueprint-Boulder/f23-bcna",
+        "screenshots": ["/bcna1.jpg"],
+        "screenshotsAlt": ["screenshot of the edit category page"]
+    },
+    {
+        "title": "Poke-Finder",
+        "summary": "A React web app that leverages the open-source PokeAPI to display pokemon information based on Pokeman name or ID as input. Utilizes caching and error handling. ",
+        "skills": ["React", "Tailwind"],
+        "github": "https://github.com/freddylinn/poke-finder",
+        "screenshots": ["/pokefinder.jpg"],
+        "screenshotsAlt": ["screenshot of the pokemon category page"]
     }
 ]
