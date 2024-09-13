@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "fira";
+    src: url("/fonts/fira.woff2") format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "inter";
+    src: url("/fonts/inter.woff2") format("woff2");
+    font-style: normal;
+}

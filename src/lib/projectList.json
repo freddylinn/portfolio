@@ -5,23 +5,26 @@
         "skills": ["SvelteKit", "TypeScript", "Tailwind"],
         "github": "https://github.com/freddylinn/portfolio",
         "screenshots": ["/portfolio.png"],
-        "screenshotsAlt": ["screenshot of this website's source code"]
+        "screenshotsAlt": ["screenshot of this website's source code"],
+        "focus": "software"
     },
     {
         "title": "Online Survey Tool",
         "summary": "I transformed spreadsheet info from the Colorado Motor Speech Lab into a free tool for speech therapists. I've also built out a subscription platform that is ready to go live.",
-        "skills": ["React", "Firebase", "Tailwind"],
+        "skills": ["React", "TypeScript", "Firebase", "Tailwind"],
         "github": "https://github.com/freddylinn/cmsf-website",
         "live": "https://cmsf.info",
         "screenshots": ["/cmsf1.jpg"],
-        "screenshotsAlt": ["screenshot of the colorado motor speech framework website"]
+        "screenshotsAlt": ["screenshot of the colorado motor speech framework website"],
+        "focus": "software"
     },
     {
         "title": "Mini Home Server",
         "summary": "I installed Pi-Hole, a network-wide ad blocker, on a Raspberry Pi. This runs 24/7 on my home network and has a firewall configured to only permit Pi-Hole traffic.",
         "skills": ["Linux", "Bash Shell"],
         "screenshots": ["/pi.jpg"],
-        "screenshotsAlt": ["photograph of my raspberry pi placed on a table"]
+        "screenshotsAlt": ["photograph of my raspberry pi placed on a table"],
+        "focus": "security"
     },
     {
         "title": "Wildlife Search Engine",
@@ -29,7 +32,8 @@
         "skills": ["React", "Tailwind", "SQLite"],
         "github": "https://github.com/Blueprint-Boulder/f23-bcna",
         "screenshots": ["/bcna1.jpg"],
-        "screenshotsAlt": ["screenshot of the edit category page"]
+        "screenshotsAlt": ["screenshot of the edit category page"],
+        "focus": "software"
     },
     {
         "title": "Poke-Finder",
@@ -37,6 +41,7 @@
         "skills": ["React", "Tailwind"],
         "github": "https://github.com/freddylinn/poke-finder",
         "screenshots": ["/pokefinder.jpg"],
-        "screenshotsAlt": ["screenshot of the pokemon category page"]
+        "screenshotsAlt": ["screenshot of the pokemon category page"],
+        "focus": "software"
     }
 ]
