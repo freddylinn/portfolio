@@ -16,7 +16,8 @@
         "live": "https://cmsf.info",
         "screenshots": ["/cmsf1.jpg"],
         "screenshotsAlt": ["screenshot of the colorado motor speech framework website"],
-        "focus": "software"
+        "focus": "software",
+        "page": "cmsf"
     },
     {
         "title": "Mini Home Server",
@@ -24,7 +25,8 @@
         "skills": ["Linux", "Bash Shell"],
         "screenshots": ["/pi.jpg"],
         "screenshotsAlt": ["photograph of my raspberry pi placed on a table"],
-        "focus": "security"
+        "focus": "security",
+        "page": "homelab"
     },
     {
         "title": "Wildlife Search Engine",

@@ -31,6 +31,14 @@
                 </div>
                 <p class="lg:text-lg px-4 lg:px-6 mb-4">{project.summary}</p>
                 <div class="flex gap-4 justify-center flex-wrap">
+                    {#if project.page}
+                        <a
+                            href={`/projects/${project.page}`}
+                            class="px-5 py-2 mb-4 flex items-center text-lg bg-slate-700 hover:bg-sky-900 rounded-full"
+                        >
+                            <span class="mr-1 lg:text-xl">Read More</span>
+                        </a>
+                    {/if}
                     {#if project.github}
                         <a
                             href={project.github}
