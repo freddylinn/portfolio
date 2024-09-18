@@ -3,12 +3,14 @@
 </script>
 
 <div
-    class="bg-[url(/testbg9.jpg)] w-screen bg-cover md:bg-fixed bg-center bg-no-repeat flex flex-col items-center px-4 py-8 gap-8 text-white"
+    class="bg-[url(/projects.webp)] w-screen bg-cover md:bg-fixed bg-center bg-no-repeat flex flex-col items-center px-4 py-8 gap-8 text-white"
 >
     <h2 class="font-semibold font-sans text-3xl lg:text-4xl bg-slate-800/70 rounded-xl px-8 py-2">Projects</h2>
     <div class="flex flex-wrap gap-16 justify-center">
         {#each projectList as project}
-            <div class="bg-slate-800/70 backdrop-blur-sm rounded-md flex flex-col items-center lg:w-128 text-center">
+            <div
+                class="bg-slate-800/70 backdrop-blur-sm backdrop-brightness-50 rounded-md flex flex-col items-center lg:w-128 text-center"
+            >
                 <img
                     class="w-80 lg:w-112 aspect-video object-cover my-4 lg:mt-6"
                     src={project.screenshots[0]}

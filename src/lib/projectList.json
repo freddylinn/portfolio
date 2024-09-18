@@ -4,7 +4,7 @@
         "summary": "I learned SvelteKit to create this portfolio website and it's currently hosted on Vercel to enable SSR. The scripting is done in TypeScript and I use Tailwind for styling.",
         "skills": ["SvelteKit", "TypeScript", "Tailwind"],
         "github": "https://github.com/freddylinn/portfolio",
-        "screenshots": ["/portfolio.png"],
+        "screenshots": ["/portfolio.webp"],
         "screenshotsAlt": ["screenshot of this website's source code"],
         "focus": "software"
     },
@@ -14,26 +14,28 @@
         "skills": ["React", "TypeScript", "Firebase", "Tailwind"],
         "github": "https://github.com/freddylinn/cmsf-website",
         "live": "https://cmsf.info",
-        "screenshots": ["/cmsf1.jpg"],
+        "screenshots": ["/cmsf1.webp"],
         "screenshotsAlt": ["screenshot of the colorado motor speech framework website"],
         "focus": "software",
-        "page": "cmsf"
+        "page": "cmsf",
+        "description": "The Colorado Motor Speech Lab at CU had existing data on an Excel spreadsheet where speech therapists could evaluate a patient for symptoms and get an idea of what conditions they may have. The problem with this original format was that the speech therapists would need to find and download this file, then have the necessary software on top of that. Based on this problem, the solution from the lab was to create a public-facing website where all people need is the URL. I worked throughout the summer of 2024 to finish this online tool and communicated with the lab founder on a weekly basis. The project was finished in under a month, so stretch goals were able to be added. I developed a customized subscription platform where premium users can access videos embedded alongside each symptom to see examples of what they look and sound like. Transactions are secured by Stripe and user authentication is handled with Firebase. This extended functionality is complete but is currently on a development branch until all the videos have been recorded."
     },
     {
         "title": "Mini Home Server",
         "summary": "I installed Pi-Hole, a network-wide ad blocker, on a Raspberry Pi. This runs 24/7 on my home network and has a firewall configured to only permit Pi-Hole traffic.",
         "skills": ["Linux", "Bash Shell"],
-        "screenshots": ["/pi.jpg"],
+        "screenshots": ["/pi.webp"],
         "screenshotsAlt": ["photograph of my raspberry pi placed on a table"],
         "focus": "security",
-        "page": "homelab"
+        "page": "homelab",
+        "description": "In order to gain experience with computer networking and Linux system administration, I decided to start with a Raspberry Pi for my home server. In order for Pi-Hole to function as an ad-blocker, it acts as a DNS sinkhole. Because of this, I had to reconfigure my router settings to point to the Pi as the DNS. I also took steps to secure the server such as ensuring there was no port forwarding, no weak passwords, limiting ports and IPs with a firewall, etc. The Pi automatically caches some DNS requests and uses Cloudflare as an upstream for others. Pi-Hole provides an admin dashboard that lets me see which DNS requests are permitted and blocked, and it's really interesting to see how many requests are made and getting an idea of what they're doing. My next goal is to turn it into a recursive DNS that can connect directly to root DNS servers by setting up the open-source tool 'Unbound'. I use Linux Mint as my main OS on my desktop PC to gain more experience with Linux, and set up a Kali Linux VM to practice penetration testing on Hack The Box and other platforms."
     },
     {
         "title": "Wildlife Search Engine",
         "summary": "Our team at Blueprint Boulder built a highly modular database with sorting and filtering. I focused on designing the admin-facing pages and pulling data from SQLite.",
         "skills": ["React", "Tailwind", "SQLite"],
         "github": "https://github.com/Blueprint-Boulder/f23-bcna",
-        "screenshots": ["/bcna1.jpg"],
+        "screenshots": ["/bcna1.webp"],
         "screenshotsAlt": ["screenshot of the edit category page"],
         "focus": "software"
     },
@@ -42,7 +44,7 @@
         "summary": "A React web app that leverages the open-source PokeAPI to display pokemon information based on Pokeman name or ID as input. Utilizes caching and error handling. ",
         "skills": ["React", "Tailwind"],
         "github": "https://github.com/freddylinn/poke-finder",
-        "screenshots": ["/pokefinder.jpg"],
+        "screenshots": ["/pokefinder.webp"],
         "screenshotsAlt": ["screenshot of the pokemon category page"],
         "focus": "software"
     }

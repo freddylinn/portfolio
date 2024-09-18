@@ -1,13 +1,13 @@
 <div
-    class="bg-[url(/landscape9.jpg)] w-screen bg-cover bg-no-repeat flex flex-wrap justify-center items-center px-4 py-12 gap-4 lg:gap-8 lg:py-20"
+    class="bg-[url(/intro.webp)] w-screen bg-cover bg-center bg-no-repeat flex flex-wrap justify-center items-center px-4 py-12 gap-4 lg:gap-8 lg:py-20"
 >
     <img
         class="rounded-full w-64 h-64 md:w-96 md:h-96 object-cover shadow-md"
-        src="/portrait.jpg"
+        src="/portrait.webp"
         alt="a photograph of me in an outdoor setting"
     />
     <div class="w-5/ md:w-1/2 bg-slate-800/70 backdrop-blur-sm rounded-md text-center font-mono text-white p-4">
-        <h3 class="font-semibold mb-1 text-3xl md:text-5xl drop-shadow-md">Freddy Linn</h3>
+        <h1 class="font-semibold mb-1 text-3xl md:text-5xl drop-shadow-md">Freddy Linn</h1>
         <h4 class="font-medium text-lg drop-shadow-md mb-4">Cybersecurity & Software Development</h4>
         <p class="font-regular text-lg leading-relaxed lg:leading-relaxed md:text-xl md:indent-8">
             Hello! I'm currently in my senior year at CU Boulder majoring in Computer Science. I believe in writing secure,
