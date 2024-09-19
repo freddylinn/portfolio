@@ -2,7 +2,8 @@
     import projectList from "$lib/projectList.json";
 </script>
 
-<div
+<section
+    id="projects"
     class="bg-[url(/projects.webp)] w-screen bg-cover md:bg-fixed bg-center bg-no-repeat flex flex-col items-center px-4 py-8 gap-8 text-white"
 >
     <h2 class="font-semibold font-sans text-3xl lg:text-4xl bg-slate-800/70 rounded-xl px-8 py-2">Projects</h2>
@@ -33,23 +34,23 @@
                 </div>
                 <p class="lg:text-lg px-4 lg:px-6 mb-4">{project.summary}</p>
                 <div class="flex gap-4 justify-center flex-wrap">
-                    {#if project.page}
-                        <a
-                            href={`/projects/${project.page}`}
-                            class="px-5 py-2 mb-4 flex items-center text-lg bg-slate-700 hover:bg-sky-900 rounded-full"
-                        >
-                            <span class="mr-1 lg:text-xl">Read More</span>
-                        </a>
-                    {/if}
                     {#if project.github}
                         <a
                             href={project.github}
                             target="_blank"
-                            class="px-5 py-2 mb-4 flex items-center text-lg bg-gray-800 hover:bg-gray-900 rounded-full"
+                            class="px-5 py-2 mb-4 flex items-center text-lg bg-gray-900 hover:bg-gray-950 rounded-full"
                         >
                             <svg class="h-6 w-6 lg:h-8 lg:w-8 mr-3"><use href="/icons.svg#github"></use></svg>
                             <span class="mr-1 lg:text-xl">GitHub</span>
                             <svg class="h-4 w-4 lg:w-5 lg:h-5"><use href="/icons.svg#newtab"></use></svg>
+                        </a>
+                    {/if}
+                    {#if project.page}
+                        <a
+                            href={`/projects/${project.page}`}
+                            class="px-5 py-2 mb-4 flex items-center text-lg bg-sky-800 hover:bg-sky-900 rounded-full"
+                        >
+                            <span class="lg:text-xl">Read More</span>
                         </a>
                     {/if}
                     {#if project.live}
@@ -66,4 +67,4 @@
             </div>
         {/each}
     </div>
-</div>
+</section>
