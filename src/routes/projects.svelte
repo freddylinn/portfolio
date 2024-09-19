@@ -4,7 +4,7 @@
 
 <section
     id="projects"
-    class="bg-[url(/projects.webp)] w-screen bg-cover md:bg-fixed bg-center bg-no-repeat flex flex-col items-center px-4 py-8 gap-8 text-white"
+    class="bg-[url(/projects.webp)] w-screen bg-cover bg-center bg-no-repeat flex flex-col items-center px-4 py-8 gap-8 text-white"
 >
     <h2 class="font-semibold font-sans text-3xl lg:text-4xl bg-slate-800/70 rounded-xl px-8 py-2">Projects</h2>
     <div class="flex flex-wrap gap-16 justify-center">
