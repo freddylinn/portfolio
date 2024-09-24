@@ -5,7 +5,7 @@
     const description = data.project.description!.split("\n");
 </script>
 
-<div class="bg-gray-800 text-white flex flex-col items-center">
+<div class="bg-gray-800 text-white flex flex-col items-center min-h-screen">
     <h1 class="text-4xl lg:text-5xl font-mono font-medium text-center p-8">{data.project.title}</h1>
     <a href="/#projects" class="px-8 py-3 mb-8 text-lg text-gray-800 bg-white hover:bg-neutral-200 rounded-full">
         <span class="text-lg font-medium lg:text-xl">Return to Homepage</span>
